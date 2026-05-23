@@ -37,11 +37,3 @@ npm start
 npm run dist
 ```
 *构建成功后，所有的安装包文件均会输出在根目录的 `dist/` 文件夹中。*
-
-## 🛠 技术栈
-- [Electron](https://www.electronjs.org/) (进程管理、原生系统 API 挂载)
-- Vanilla Javascript (ES6+)
-- 原生 CSS3 变量控制 + HTML5语义化标签
-
-## 📄 开源协议
-[MIT License](LICENSE)
