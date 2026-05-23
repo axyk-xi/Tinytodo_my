@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TinyTodo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Todo 列表 -->
+  <div class="todo-list-container" id="todoListContainer">
+    <ul class="todo-list" id="todoList"></ul>
+    <div class="empty-state" id="emptyState">
+      <div class="empty-icon">✨</div>
+      <div class="empty-text">暂无待办事项</div>
+      <div class="empty-hint">在下方输入框添加新任务</div>
+    </div>
+  </div>
+
+  <!-- 新增输入 -->
+  <div class="add-bar" id="addBar">
+    <div class="add-input-wrapper">
+      <span class="add-icon">+</span>
+      <input type="text" class="add-input" id="addInput" placeholder="添加新的待办事项..." maxlength="100" autocomplete="off" />
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+
+</html>
